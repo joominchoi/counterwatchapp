@@ -46,11 +46,11 @@ struct ContentView: View {
                 
                 ScrollView(.horizontal) {
                     HStack(alignment: .center, spacing: 10) {
-                        Button(action: {
-                            self.performMaths(isSubtract: self.isDecrementOn, num: 1)
-                        }) {
-                            Text(isDecrementOn ? "-1" : "+1")
-                        }
+//                        Button(action: {
+//                            self.performMaths(isSubtract: self.isDecrementOn, num: 1)
+//                        }) {
+//                            Text(isDecrementOn ? "-1" : "+1")
+//                        }
                         
                         Button(action: {
                             self.performMaths(isSubtract: self.isDecrementOn, num: 2)
